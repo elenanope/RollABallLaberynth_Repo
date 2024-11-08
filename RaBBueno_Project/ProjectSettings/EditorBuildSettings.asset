@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/JuegoLaberinto_Root/Scenes/ElenaLaberynth.unity
     guid: d4e36067a94acba46b2bfee6b28f55fe
   - enabled: 1
-    path: Assets/JuegoLaberinto_Root/Scenes/EjercicioClase/WinScene.unity
+    path: Assets/JuegoLaberinto_Root/Scenes/WinScene.unity
     guid: 37fd7c1b28746d04591d735aab12f756
   m_configObjects: {}
