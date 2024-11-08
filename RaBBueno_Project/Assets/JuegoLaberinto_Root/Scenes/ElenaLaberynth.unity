@@ -251,12 +251,6 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 1
   m_MaximumOrthoSize: 5000
---- !u!4 &296842273 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2749338831962288054, guid: 0060570db9efc7044a7482327df56c56,
-    type: 3}
-  m_PrefabInstance: {fileID: 1836558463}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &348082151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1119,7 +1113,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 296842273}
+  m_Follow: {fileID: 1973118514}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 10
@@ -1771,7 +1765,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1973118509}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: FreeJump
         m_Mode: 1
@@ -2843,6 +2837,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924167869}
   m_CullTransparentMesh: 1
+--- !u!114 &1973118509 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5153110011825165861, guid: a2363c786915fcf4ab46befd3bceab96,
+    type: 3}
+  m_PrefabInstance: {fileID: 275473834908000724}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe3a425b67ce8047b99ef50e7215478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1973118514 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1308670587200731799, guid: a2363c786915fcf4ab46befd3bceab96,
+    type: 3}
+  m_PrefabInstance: {fileID: 275473834908000724}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2062101805
 GameObject:
   m_ObjectHideFlags: 0
@@ -3066,6 +3078,11 @@ PrefabInstance:
       propertyPath: goalIcon
       value: 
       objectReference: {fileID: 1270989035}
+    - target: {fileID: 3105777032844073242, guid: a2363c786915fcf4ab46befd3bceab96,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5153110011825165861, guid: a2363c786915fcf4ab46befd3bceab96,
         type: 3}
       propertyPath: playerAudio
