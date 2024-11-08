@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/JuegoBueno_Root/Scenes/Test.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/JuegoLaberinto_Root/Scenes/MainMenu.unity
+    guid: dd7dbe03a092bd34ca158c5515a337f1
+  - enabled: 1
+    path: Assets/JuegoLaberinto_Root/Scenes/ElenaLaberynth.unity
+    guid: d4e36067a94acba46b2bfee6b28f55fe
+  - enabled: 1
+    path: Assets/JuegoLaberinto_Root/Scenes/EjercicioClase/WinScene.unity
+    guid: 37fd7c1b28746d04591d735aab12f756
   m_configObjects: {}
